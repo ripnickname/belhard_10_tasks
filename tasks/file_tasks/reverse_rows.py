@@ -15,5 +15,4 @@ def revert_rows(path):
             f1.write(inverted_line)
 
 
-
 revert_rows('text.txt')

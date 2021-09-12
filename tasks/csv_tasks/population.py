@@ -7,6 +7,7 @@
 
 import pandas as pd
 
+
 def max_delta():
     df = pd.read_csv('world_population.csv')
     best_percentage = df['ChangePerc'].max()
@@ -17,5 +18,3 @@ def max_delta():
 
 if __name__ == '__main__':
     max_delta()
-
-
